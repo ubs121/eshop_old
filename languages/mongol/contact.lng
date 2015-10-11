@@ -1,0 +1,13 @@
+﻿<%
+strFullName     = "Нэр"
+strEmailAddress = "И-мэйл хаяг"
+strEnquiry      = "Хүсэлт"
+
+strGiveFullname = "Бүтэн нэрээ бичнэ үү"
+strGiveEmail    = "Та и-мэйл хаягаа бичнэ үү"
+strGiveEnquiry  = "Хүсэлтээ бичнэ үү"
+
+strContactSubject = "[Contact]Email sent from your shop"
+strHasSent        = "[name] танд энэ хүсэлтийг илгээлээ"
+strEmailSent      = "Таны хүсэлт амжилттай илгээгдлээ"
+%>

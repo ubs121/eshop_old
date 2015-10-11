@@ -1,0 +1,4 @@
+﻿<%
+strNewsModuleDisabled  = "Мэдээний модуль хаагдсан"
+strArticleNotAvailable = "Хүссэн сэдэв алга"
+%>

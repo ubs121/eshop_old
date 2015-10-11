@@ -1,0 +1,6 @@
+<%
+strSpecifications = "Specifications"
+strBiggerImage = "Large image"
+strUrlToProductInfo = "More information about this product you can find on the <a href=""?mod=redirect&goto=[producturl]"" target=""_blank"">productpage</a> of the manufacturer."
+strInCart = "In winkelwagen"
+%>

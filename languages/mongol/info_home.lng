@@ -1,0 +1,77 @@
+<p>
+  <font size="3"><b>Баяр хүргэе!</b></font>
+</p>
+<p>
+  Та энэ текстийг харж байгаа бол програмыг амжилттай суулгасан байна. Гэхдээ зарим нэг хийх ажил байна аа :-)
+</p>
+<p class="item_title">
+  <img src="images/before_item.gif" width="25" height="25" align="absmiddle" />
+  administrationpanel
+</p>
+<p>
+  To login into your administratorpanel go to the folder <a href="admin">/admin/</a>. Here you will have to log in.<br />
+  The default login is:
+  <ul>
+    <li>LoginID: administrator</li>
+    <li>Password: admin</li>
+  </ul>
+  After logging in, you will see the main items from the adminpanel. It is important to configure "my store" first.
+  Here are some items that you <b>absolutely</b> have to configure:<br /><br />
+
+  <b><u>Update method language-file</u></b><br />
+  When the file "/language.asp" does not have sufficient (write-)permissions, you have to set this to "no". If the file
+  "/language.asp" has write-permissions, the script will automatically adjust this file when adding/deleting a language.
+  If you do not have write-permissions on this file, you will have to do this manually (see FAQ).<br /><br />
+
+  <b><u>Link to shop</u></b><br />
+  This is the link to your shop (duh!). If your shop is located at "http://www.myshop.com/ashop/" then this is your shoplink.<br /><br />
+
+  <b><u>Virtual path</u></b><br />
+  Most important configuration of your shop!! When your shop is located at "http://www.myshop.com/ashop/" then "/ashop/" is your virtual path.
+</p>
+<p>
+  These administrationmodules are currently completed:
+  <ul>
+    <li>My store</li>
+    <li>Mail setup</li>
+    <li>Languages</li>
+    <li>Categories</li>
+    <li>Products</li>
+    <li>Custom page</li>
+    <li>Manufacturers</li>
+    <li>Admin pass</li>
+    <li>Edit admin</li>
+    <li>Add admin</li>
+  </ul>
+</p>
+<p class="item_title">
+  <img src="images/before_item.gif" width="25" height="25" align="absmiddle" />
+  Custom pages
+</p>
+<p>
+  Adding a custom page is made really easy. The only thing you have to do is put your page in the folder
+  <i>/languages/[language]/custom_pages/</i><br /><br />
+
+  <u>For example:</u><br />
+  I want to create a new page "faq". I put all my HTML-code in the page faq.html. Then I upload this file to the
+  folder of all my used languages:
+  <ul>
+    <li>english --> /languages/english/custom_pages/faq.html</li>
+    <li>dutch --> /languages/dutch/custom_pages/faq.html</li>
+    <li>turkish --> /languages/turkish/custom_pages/faq.html</li>
+    <li>...</li>
+  </ul>
+  The only thing you now have to do is select the page in the administrationpanel and add it. The new page will be
+  shown in the "information"-box.<br /><br />
+
+  <b><u>Important!</u></b><br />
+  In the custom page you can use html-tags. You do not need to use &lt;body&gt; and &lt;head&gt;-tags
+</p>
+<p class="item_title">
+  <img src="images/before_item.gif" width="25" height="25" align="absmiddle" />
+  Home
+</p>
+<p>
+  The content of this file is located in <font color="#FF0000">/languages/english/info_home.lng</font>. You can
+  open and edit this file with every text-editor (like notepad).
+</p>

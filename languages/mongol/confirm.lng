@@ -1,0 +1,14 @@
+﻿<%
+strOrder         = "захиалга"
+strUser          = "хэрэглэгч"
+
+strConfirm       = "Бататгах"
+
+strConfirmSucces = "Таны [confirm_type] амжилттай боллоо!"
+strConfirmFailed = "[confirm_type]-г шалгах үед асуудал гарлаа!"
+
+strPaypalPayment = "Paypal төлбөр"
+
+strSelectedPaypalPayment = "Та paypal-аар онлайнаар төлөх сонголт хийсэн байна.<br /><br />"
+strSelectedPaypalPayment = strSelectedPaypalPayment & "Үргэлжлүүлэхийн тулд доорхи товчийг дарна уу"
+%>

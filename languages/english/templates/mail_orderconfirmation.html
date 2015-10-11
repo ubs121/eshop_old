@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style>
+	body{
+		margin: 10px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+	}
+	.header{
+		font-size: 20px;
+		padding: 20px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	.content{
+		font-size: 14px;
+	}
+	
+	.confirmLink{
+		background: #EEEEEE;
+		border: solid 1px #CCCCCC;
+		margin: 10px;
+		padding: 4px;
+		text-align: center;
+	}
+	
+	a, a:visited{
+		color: #990033;
+		text-decoration: none;
+	}
+	
+	a:hover{
+		text-decoration: underline;
+		font-weight: bold;
+		color: #000000;
+	}
+</style>
+</head>
+<body>
+<div class="header">[shopname] Orderconfirmation</div>
+<div class="Content">
+Thank you for placing your order with [shopname]. In order to complete your order, you will have to confirm your order by clicking the confirmationlink you will find in this email.
+<p>
+<b>Order information:</b></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr>
+    <td width="120" align="left" valign="top">Your name: </td>
+    <td align="left" valign="top">[customer-name]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Delivery address: </td>
+    <td align="left" valign="top">[delivery-address]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Delivery method: </td>
+    <td align="left" valign="top">[delivery-method]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Total Price: </td>
+    <td align="left" valign="top">[total-price]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Date ordered: </td>
+    <td align="left" valign="top">[date-ordered]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Payment method: </td>
+    <td align="left" valign="top">[payment-method]</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">Comments:</td>
+    <td align="left" valign="top">[comments]</td>
+  </tr>
+</table>
+<p>
+  
+  <b>Products ordered:</b><br />
+  [products-ordered]
+</p>
+</div>
+<p>
+Regards,<br />
+  [shopname] Team </p>
+<br />
+<div class="confirmLink">
+<a href="[confirmation-link]">[confirmation-link]</a>
+</div>
+</body>
+</html>

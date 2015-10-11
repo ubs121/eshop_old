@@ -1,0 +1,6 @@
+﻿<%
+strSpecifications = "Заалтууд"
+strBiggerImage = "Том зураг"
+strUrlToProductInfo = "Энэ бүтээгдэхүүний тухай дэлгэрэнгүй мэдээллийг үйлдвэрлэгчийн <a href=""?mod=redirect&goto=[producturl]"" target=""_blank"">productpage</a> сайтаас харна уу."
+strInCart = "Картад"
+%>

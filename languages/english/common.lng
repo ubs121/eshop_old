@@ -1,0 +1,86 @@
+<%
+'Charset
+  strCharset           = "iso-8859-1"
+  strTextDirectory     = "ltr" 'text shows from left to right
+
+'Headermenu
+  strHome              = "Home"
+  strShoppingCart      = "Shopping cart"
+  strMyAccount         = "My account"
+  strCheckOut          = "Checkout"
+  strLogout            = "Logout"
+
+'Position
+  strShop              = "Shop"
+  strLogin             = "Login"
+  strOverview          = "Overview"
+  strRegister          = "Register"
+  strOffline           = "Offline"
+
+'Leftmenu
+  strAllManufacturers  = "All Manufacturers"
+  strMenuCategories    = "Categories"
+  strMenuManufacturers = "Manufacturers"
+  strMenuInformation   = "Information"
+  strSearch            = "Search"
+  strLanguage          = "Language"
+  strMenuConditions    = "Conditions"
+  strMenuAbout         = "About A-shop"
+  strContact           = "Contact"
+  strNewsLetter        = "Newsletter"
+
+'Rightmenu
+  strLastProducts = "Last products"
+  strMostPopular  = "Most popular"
+
+'Newsletter
+  strSubscribe   = "Subscribe"
+  strUnSubscribe = "Unsubscribe"
+
+'Forms
+  strCmdOk       = "OK"
+  strCmdCancel   = "Cancel"
+  strCmdNext     = "Next"
+  strCmdPrevious = "Previous"
+
+'Date
+  redim strMonthName(12)
+  strMonthName(1) = "January"
+  strMonthName(2) = "February"
+  strMonthName(3) = "March"
+  strMonthName(4) = "April"
+  strMonthName(5) = "May"
+  strMonthName(6) = "June"
+  strMonthName(7) = "July"
+  strMonthName(8) = "August"
+  strMonthName(9) = "September"
+  strMonthName(10) = "Oktober"
+  strMonthName(11) = "November"
+  strMonthName(12) = "December"
+
+'Others
+  strItemNotAvailable = "This item is not available in your language"
+  strManufacturer   = "Manufacturer"
+  strContinue       = "Continue"
+  strEdit           = "Edit"
+  strDelete         = "Delete"
+  strPage           = "Page"
+  strPrevious       = "Previous"
+  strNext           = "Next"
+  strPageLoadedIn   = "Page loaded in [seconds] seconds"
+
+'Login
+  strEmail          = "Email"
+  strPassword       = "Pasword"
+
+'Custom pages
+  strFileDoesNotExist = "The file you try to acces does not exist"
+
+'Homepage
+  strWelcome    = "Welcome"
+  strNews       = "News"
+  strPromotions = "Promotions"
+
+'Shopping cart
+  strCartIsEmpty          = "There are no products in your shopping cart."
+%>

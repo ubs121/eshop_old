@@ -1,0 +1,17 @@
+<%
+strNewProductsFor       = "New products for [monthname]"
+strPrice                = "Price"
+strProductName          = "Productname"
+strProduct              = "Product"
+strProducts             = "products"
+strTo                   = "to"
+strOf                   = "of"
+strNoProductsInCategory = "There are no products in this category."
+strTotalPrice           = "Total"
+strNumberOf             = "#"
+strNoNewProductsFor     = "There are no new products for [monthname]"
+
+'cart
+  strRemove_add         = "Remove/add"
+  strEmptyCart          = "Empty cart"
+%>

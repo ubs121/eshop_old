@@ -1,0 +1,86 @@
+﻿<%
+'Charset
+  strCharset           = "utf-8"
+  strTextDirectory     = "ltr" 'text shows from left to right
+
+'Headermenu
+  strHome              = "Нүүр"
+  strShoppingCart      = "Карт"
+  strMyAccount         = "Миний эрх"
+  strCheckOut          = "Checkout"
+  strLogout            = "Logout"
+
+'Position
+  strShop              = "Дэлгүүр"
+  strLogin             = "Нэвтрэх"
+  strOverview          = "Тойм"
+  strRegister          = "Бүртгэх"
+  strOffline           = "Offline"
+
+'Leftmenu
+  strAllManufacturers  = "Бүгд"
+  strMenuCategories    = "Ангилал"
+  strMenuManufacturers = "Үйлдвэрлэгч"
+  strMenuInformation   = "Мэдээлэл"
+  strSearch            = "Хайлт"
+  strLanguage          = "Хэл"
+  strMenuConditions    = "Нөхцөл"
+  strMenuAbout         = "Тухай"
+  strContact           = "Харьцах хаяг"
+  strNewsLetter        = "Мэдээ"
+
+'Rightmenu
+  strLastProducts = "Сүүлийн бүтээгдэхүүнүүд"
+  strMostPopular  = "Хамгийн түгээмэл"
+
+'Newsletter
+  strSubscribe   = "Захиалах"
+  strUnSubscribe = "Болих"
+
+'Forms
+  strCmdOk       = "OK"
+  strCmdCancel   = "Cancel"
+  strCmdNext     = "Next"
+  strCmdPrevious = "Previous"
+
+'Date
+  redim strMonthName(12)
+  strMonthName(1) = "1"
+  strMonthName(2) = "2"
+  strMonthName(3) = "3"
+  strMonthName(4) = "4"
+  strMonthName(5) = "5"
+  strMonthName(6) = "6"
+  strMonthName(7) = "7"
+  strMonthName(8) = "8"
+  strMonthName(9) = "9"
+  strMonthName(10) = "10"
+  strMonthName(11) = "11"
+  strMonthName(12) = "12"
+
+'Others
+  strItemNotAvailable = "This item is not available in your language"
+  strManufacturer   = "Manufacturer"
+  strContinue       = "Continue"
+  strEdit           = "Edit"
+  strDelete         = "Delete"
+  strPage           = "Page"
+  strPrevious       = "Previous"
+  strNext           = "Next"
+  strPageLoadedIn   = "Хуудас [seconds] секундэд ачаалагдлаа"
+
+'Login
+  strEmail          = "И-мэйл"
+  strPassword       = "Нууц үг"
+
+'Custom pages
+  strFileDoesNotExist = "Таны хүссэн файл алга"
+
+'Homepage
+  strWelcome    = "Тавтай морил"
+  strNews       = "Мэдээ"
+  strPromotions = "Урамшуулал"
+
+'Shopping cart
+  strCartIsEmpty          = "Таны картад бараа алга."
+%>

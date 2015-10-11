@@ -1,0 +1,13 @@
+﻿<%
+strAdvancedSearch = "Дэлгэрэнгүй хайлт"
+strSimpleSearch   = "Энгийн хайлт"
+
+strProductName = "Бараа"
+strAllCategories = "Бүх ангилал"
+strOnlySearchCategories = "Зөвхөн сонгосон ангиллаар хайна"
+strOnlySearchManufacturers = "Зөвхөн сонгосон үйлдвэрлэгчээр хайна"
+
+strSearchResults = "Хайлтын үр дүн"
+strItemsFound    = "Олдсон"
+strPages         = "Хуудас"
+%>

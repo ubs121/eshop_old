@@ -1,0 +1,4 @@
+<%
+strNewsModuleDisabled  = "The news module is disabled"
+strArticleNotAvailable = "The requested article does not exist"
+%>

@@ -1,0 +1,6 @@
+[Opening-tag]
+<%
+[Include-tag]
+%><!-- #include file="languages/[langfolder]/index.inc.asp" --><%
+[Close-tag]
+%>

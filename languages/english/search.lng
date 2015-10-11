@@ -1,0 +1,13 @@
+<%
+strAdvancedSearch = "Advanced search"
+strSimpleSearch   = "Simple search"
+
+strProductName = "Productname"
+strAllCategories = "All categories"
+strOnlySearchCategories = "Only search selected categories"
+strOnlySearchManufacturers = "Only search selected manufacturers"
+
+strSearchResults = "Searchresults"
+strItemsFound    = "Items found"
+strPages         = "Pages"
+%>

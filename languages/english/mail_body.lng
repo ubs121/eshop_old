@@ -1,0 +1,19 @@
+<%
+'Orders
+	strOrderBody = "Thanks for your order at [shopname]. However, we will only start executing your order when you have confirmed your order.<br>"
+	strOrderBody = strOrderBody & "<br><a href=""[strShopLink]?mod=confirm&amp;type=order&amp;id=[order_id]&amp;order_code=[order_code]"">[strShopLink]?mod=confirm&amp;type=order&amp;id=[order_id]&amp;order_code=[order_code]</a><br>"
+	strOrderBody = strOrderBody & "<br>When you click this link, your order will be confirmed.<br>"
+	strOrderBody = strOrderBody & "<br>"
+	strOrderBody = strOrderBody & "Order id: [order_id] <br>"
+	strOrderBody = strOrderBody & "Date: " & day(now()) & "/" & month(now()) & "/" & year(now()) & "<br>"
+	strOrderBody = strOrderBody & "Total price: " & strCurrency & "[total_price] <br>"
+	strOrderBody = strOrderBody & "<br>"
+
+	strOrderSubject = "Confirmation of your order at [shopname]"
+
+'Lost password
+	strLostPassBody = "A Forgotten Password request has been made for a new password to be emailed to you for our shop,  [shopname]."
+	strLostPassBody = strLostPassBody & "<br>Your new password is: - [password]"
+	strLostPassSubject = "New password request for [shopname]"
+
+%>

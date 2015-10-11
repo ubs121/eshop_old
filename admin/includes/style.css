@@ -1,0 +1,140 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #003366;
+	text-decoration: underline;
+}
+
+div.body{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: solid 1px #000000;
+	width: 600px;
+}
+
+.menu{
+	margin: 10px 0px 0px 10px;
+	width: 120px;
+	float: left;
+	border: solid 1px #000000;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+.menu h1, .body_item h1{
+	background: #000000;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: Tahoma;
+	padding: 2px 2px 2px 6px;
+	margin: 0px;
+}
+
+.menu h2{
+	background: #CCCCCC;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: Tahoma;
+	padding: 2px 2px 2px 10px;
+	margin: 0px;
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	cursor: pointer;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 12px;
+	font-style: Tahoma;
+}
+
+.menu li{
+	padding: 2px 2px 2px 20px;
+	background-color: FFFFFF;
+	color:;
+}
+
+.menu li:hover{
+	padding: 2px 2px 2px 20px;
+	background: #E9E9E9;
+}
+
+input, select, textarea{
+	background: #FFFFFF;
+	border: solid 1px #000000;
+	font-family: Tahoma;
+	font-size: 9px;
+}
+
+td{
+	font-family: Tahoma;
+	font-size: 9px;
+}
+
+.body_image{
+	text-align: center;
+	float: left;
+	margin: 8px 8px 8px 8px;
+	border: solid 0px #000000;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+ul.error
+{
+	color: #FF0000;
+	list-style: square;
+	font-size: 11px;
+}
+
+.tiny
+{
+	font-size: 9px;
+	color: #CC0000;
+}
+
+.editor_container
+{
+	background: #EEEEEE;
+	border: 2px groove;
+	padding: 4px;
+	height: 22px;
+}
+
+.editor_item img
+{
+	border: solid 1px #EEEEEE;
+}
+.editor_item img:hover
+{
+	border: solid 1px #316AC5;
+}
+
+.editor_item
+{
+	color: #000000;
+	border: none;
+	float: left;
+}
+
+.separator
+{
+	border: 0px;
+	float: left;
+}

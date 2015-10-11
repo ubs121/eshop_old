@@ -1,0 +1,1 @@
+<p align="center"><b>You do not have the proper rights to access this page</b></p>

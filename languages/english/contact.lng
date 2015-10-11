@@ -1,0 +1,13 @@
+<%
+strFullName     = "Full name"
+strEmailAddress = "Email address"
+strEnquiry      = "Enquiry"
+
+strGiveFullname = "You have to fill in your full name"
+strGiveEmail    = "You have to fill in your email address"
+strGiveEnquiry  = "You have to fill in an Enquiry"
+
+strContactSubject = "[Contact]Email sent from your shop"
+strHasSent        = "[name] has sent you this enquiry using the contactform of your shop"
+strEmailSent      = "Your enquiry has been sent with succes"
+%>

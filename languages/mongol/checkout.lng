@@ -1,0 +1,25 @@
+﻿<%
+strPrimaryAddress             = "Үндсэн хаяг"
+strAddressbookEntries         = "Жагсаалт"
+
+strChangeAddress              = "Хаяг солих"
+strShippingAddress            = "Тээвэрлэх хаяг"
+strShippingAddressExplanation = "Бараагаа хаана хүлээн авахаа хаягын дэвтэрээсээ сонгоно уу."
+
+strOrderComments              = "Захиалгын тухай тайлбар"
+
+strDeliveryMethod             = "Хүргэх хэлбэр"
+strConfirmOrder               = "Баталгаажуулах"
+
+strProductName                = "Productname"
+strProductsOrdered            = "Ordered"
+strProductPrice               = "Үнэ"
+strTotalPrice                 = "Нийт үнэ"
+strIAgree                     = "Зөвшөөрөх"
+strIDontAgree                 = "Татгалзах"
+
+strCheckoutFinished           = "Шалгалт дууслаа"
+strThanksForOrdering          = "[shopname]-р үйлчлүүлсэнд байрлалаа.<br /><br />Таны захиалга таны баталгаагаар гүйцэтгэгдэх болно. Батламж кодыг танд и-мэйлээр илгээх болно."
+
+strPaymentMethod              = "Төлөх хэлбэр"
+%>

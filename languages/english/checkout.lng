@@ -1,0 +1,25 @@
+<%
+strPrimaryAddress             = "Primary address"
+strAddressbookEntries         = "Addressbook entries"
+
+strChangeAddress              = "Change address"
+strShippingAddress            = "Shipping address"
+strShippingAddressExplanation = "Please choose from your address book where you would like the items to be delivered to."
+
+strOrderComments              = "Comments about your order"
+
+strDeliveryMethod             = "Delivery method"
+strConfirmOrder               = "Confirm order"
+
+strProductName                = "Productname"
+strProductsOrdered            = "Ordered"
+strProductPrice               = "Price"
+strTotalPrice                 = "Total price"
+strIAgree                     = "I agree"
+strIDontAgree                 = "I don't agree"
+
+strCheckoutFinished           = "Checkout finished"
+strThanksForOrdering          = "Thank you for ordering with [shopname].<br /><br />Your order will only be executed when you confirm your order.The confirmation code will be sent to you by email."
+
+strPaymentMethod              = "Payment method"
+%>

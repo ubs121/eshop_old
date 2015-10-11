@@ -1,0 +1,17 @@
+﻿<%
+strNewProductsFor       = "[monthname] сарын шинэ бараанууд"
+strPrice                = "Үнэ"
+strProductName          = "Productname"
+strProduct              = "Product"
+strProducts             = "products"
+strTo                   = "to"
+strOf                   = "of"
+strNoProductsInCategory = "Энэ ангилалд бүтээгдэхүүн алга."
+strTotalPrice           = "Бүгд"
+strNumberOf             = "#"
+strNoNewProductsFor     = "[monthname] сард шинэ бүтээгдэхүүн байхгүй"
+
+'cart
+  strRemove_add         = "Хасах/нэмэх"
+  strEmptyCart          = "Empty cart"
+%>

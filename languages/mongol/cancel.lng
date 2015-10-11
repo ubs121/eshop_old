@@ -1,0 +1,6 @@
+﻿<%
+strPaymentCancelled    = "Төлбөр цуцлагдлаа"
+
+strYouCancelledPayment = "Та төлбөрөө цуцалж байна.<br /><br />"
+strYouCancelledPayment = strYouCancelledPayment & "<b>Энэ нь бүрэн татгалзаж байна гэсэн үг биш</b>, гэхдээ таны захиалга төлбөр хийх хүртэл гүйцэтгэгдэхгүй болно."
+%>

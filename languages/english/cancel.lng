@@ -1,0 +1,6 @@
+<%
+strPaymentCancelled    = "Payment cancelled"
+
+strYouCancelledPayment = "You're payment has been cancelled.<br /><br />"
+strYouCancelledPayment = strYouCancelledPayment & "<b>This does not imply that your order has been cancelled</b>, but your order will not be executed, untill the payment is completed."
+%>

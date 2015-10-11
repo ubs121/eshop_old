@@ -1,0 +1,14 @@
+<%
+strOrder         = "order"
+strUser          = "user"
+
+strConfirm       = "Confirm"
+
+strConfirmSucces = "Your [confirm_type] has been confirmed with succes!"
+strConfirmFailed = "There was a problem while confirming this [confirm_type]!"
+
+strPaypalPayment = "Paypal payment"
+
+strSelectedPaypalPayment = "You have selected to pay online with paypal.<br /><br />"
+strSelectedPaypalPayment = strSelectedPaypalPayment & "To continue to the payment module, please click the button below"
+%>

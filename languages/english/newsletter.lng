@@ -1,0 +1,5 @@
+<%
+'Subscribe / unsubscribe
+  strSubscribed   = "You have been subscribed for our newsletter"
+  strUnsubscribed = "You have been unsubscribed for our newsletter"
+%>

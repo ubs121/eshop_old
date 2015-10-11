@@ -1,0 +1,5 @@
+﻿<%
+'Subscribe / unsubscribe
+  strSubscribed   = "Та манайхаас мэдээ захиаллаа"
+  strUnsubscribed = "Та манайхаас мэдээ захиалгаа цуцлаллаа"
+%>

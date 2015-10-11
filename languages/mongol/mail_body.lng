@@ -1,0 +1,19 @@
+﻿<%
+'Orders
+	strOrderBody = "[shopname]-р үйлчлүүлсэнд баярлалаа. Таны батламж ирсний дараа бид захиалгыг тань гүйцэтгэх болно.<br>"
+	strOrderBody = strOrderBody & "<br><a href=""[strShopLink]?mod=confirm&amp;type=order&amp;id=[order_id]&amp;order_code=[order_code]"">[strShopLink]?mod=confirm&amp;type=order&amp;id=[order_id]&amp;order_code=[order_code]</a><br>"
+	strOrderBody = strOrderBody & "<br>Энэ холбоос дээр дарснаар таны захиалга батлагдах болно.<br>"
+	strOrderBody = strOrderBody & "<br>"
+	strOrderBody = strOrderBody & "Захиалгын дугаар: [order_id] <br>"
+	strOrderBody = strOrderBody & "Огноо: " & day(now()) & "/" & month(now()) & "/" & year(now()) & "<br>"
+	strOrderBody = strOrderBody & "Нийт үнэ: " & strCurrency & "[total_price] <br>"
+	strOrderBody = strOrderBody & "<br>"
+
+	strOrderSubject = "[shopname]-н захиалгын батламж"
+
+'Lost password
+	strLostPassBody = "Шинэ нууц үгийн хүсэлтийн хариу,  [shopname]."
+	strLostPassBody = strLostPassBody & "<br>Таны шинэ нууц үг: - [password]"
+	strLostPassSubject = "[shopname]-н шинэ нууц үгийн хүсэлт"
+
+%>
